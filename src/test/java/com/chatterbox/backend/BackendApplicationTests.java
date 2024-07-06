@@ -1,4 +1,4 @@
-package com.chatter_box.backend;
+package com.chatterbox.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
