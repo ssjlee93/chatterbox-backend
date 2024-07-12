@@ -1,4 +1,4 @@
-package com.chatterbox.backend.services;
+package com.chatterbox.livemsg.services;
 
 import org.springframework.stereotype.Service;
 

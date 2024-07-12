@@ -1,8 +1,7 @@
-package com.chatterbox.backend.entities;
+package com.chatterbox.livemsg.entities;
 
 import lombok.Data;
-import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.UpdateTimestamp;
+import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -16,9 +15,8 @@ public class Message {
     private String msg_id;
     private String sender_id;
     private String content;
-    @UpdateTimestamp
     private LocalDateTime updated_time;
-    @CreationTimestamp
+    @CreatedDate
     private LocalDateTime created_time;
 
 

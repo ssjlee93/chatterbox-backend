@@ -1,4 +1,4 @@
-package com.chatterbox.backend.controllers;
+package com.chatterbox.livemsg.controllers;
 
 import org.springframework.stereotype.Controller;
 

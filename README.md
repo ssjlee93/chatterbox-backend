@@ -1,6 +1,10 @@
 # Chatter Box
 This repository is Chatter Box main backend
 
+## Installation
+* Java 22
+* IntelliJ
+
 ## Tech stack
 
 * MongoDB
